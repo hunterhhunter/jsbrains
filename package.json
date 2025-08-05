@@ -20,7 +20,8 @@
   },
   "homepage": "https://jsbrains.org",
   "devDependencies": {
-    "jsdoc": "^4.0.2"
+    "jsdoc": "^4.0.2",
+    "tsx": "^4.20.3"
   },
   "private": true,
   "workspaces": [

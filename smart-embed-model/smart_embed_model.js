@@ -43,6 +43,7 @@ export class SmartEmbedModel extends SmartModel {
   /**
    * Create a SmartEmbedModel instance
    * @param {Object} opts - Configuration options
+   * @param {string} [opts.model_key] - model name
    * @param {Object} [opts.adapters] - Map of available adapter implementations
    * @param {boolean} [opts.use_gpu] - Whether to enable GPU acceleration
    * @param {number} [opts.gpu_batch_size] - Batch size when using GPU
@@ -77,8 +78,8 @@ export class SmartEmbedModel extends SmartModel {
   /**
    * Generate embeddings for a single input
    * @param {string|Object} input - Text or object with embed_input property
-   * @returns {Promise<Object>} Embedding result
-   * @property {number[]} vec - Embedding vector
+   * @returns bject>} Embedding result
+   * @property {number[]} vec {Promise<O- Embedding vector
    * @property {number} tokens - Token count
    * 
    * @example
